@@ -1,0 +1,15 @@
+program test;
+int z, e;
+  function foo(int &r, int d);
+  begin
+  cout << r << endl;
+  cout << d << endl;
+  r = 4 + d;
+  cout << r << endl;
+  cout << d << endl
+  end;
+begin
+z = 2;
+foo(z,3);
+cout << z << endl
+end.

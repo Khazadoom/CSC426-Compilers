@@ -1,0 +1,10 @@
+program test;
+
+begin
+  cout << 'what is YASL';
+  cin;
+  cout << 'yet another simple lang' << endl;
+  cout << '1' << endl << '2' << endl;
+  cout << 'two blank lines above';
+  cin
+end.

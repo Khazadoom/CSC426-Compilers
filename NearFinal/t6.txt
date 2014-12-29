@@ -1,0 +1,12 @@
+program test;
+
+   int x;
+   boolean z;
+
+begin
+{$e+}
+cout << 'Should be 2: ' << (1+1-1+1-1*1 div 1) * (((1))) + 9 mod 8 << endl;
+z = (1+1-1+1-1*1 div 1) * (((1))) + 9 mod 8 == 12;
+cout << 'Should be false or 0: ' << z << endl;
+  cin
+end.
